@@ -5,6 +5,8 @@ from collections import defaultdict
 
 import numpy as np
 import pandas as pd
+import matplotlib
+matplotlib.use('Agg')  # headless-safe: must be set before pyplot is imported
 import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
 
