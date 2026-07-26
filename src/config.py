@@ -31,9 +31,9 @@ CATEGORY_COLORS = {
 }
 
 # ember run parameters
-NUM_DRAWS         = 50   # balanced bootstrap draws for Psi / Psi_block
-N_PVAL_ITERATIONS = 100  # permutations for empirical p-values
-N_CPUS            = 1
+NUM_DRAWS         = 100   # balanced bootstrap draws for Psi / Psi_block
+N_PVAL_ITERATIONS = 1000  # permutations for empirical p-values
+N_CPUS            = 2
 
 # Gene significance filter
 P_THRESH   = 0.05
